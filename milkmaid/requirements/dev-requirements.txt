@@ -1,0 +1,13 @@
+-r ../requirements.txt
+
+# Requirements that are used in the development environment only
+# Testing
+pytest
+pytest-socket
+pytest-django
+factory-boy
+mock
+responses
+
+# Syntax checking
+flake8
